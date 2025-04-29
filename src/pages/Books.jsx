@@ -49,7 +49,7 @@ const Books = ({ books: initialBooks }) => {
                 </select>
               </div>
               <div className="books">
-                {/* Rendering Books */}
+                {/* Rendering Books! */}
                 {books.map((book) => (
                   <Book book={book} key={book.id} />
                 ))}
