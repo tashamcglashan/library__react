@@ -36,7 +36,7 @@ const Books = ({ books: initialBooks }) => {
                 <h2 className="section__title books__header--title">
                   All Books
                 </h2>
-                {/* Sort Dropdown */}
+                {/* Sort Dropdown! */}
                 <select 
                   id="filter" 
                   defaultValue="DEFAULT" 
